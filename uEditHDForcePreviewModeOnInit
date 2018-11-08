@@ -1,0 +1,6 @@
+$(window).on("load", function() {
+  
+  if (window.location.href.toLowerCase().indexOf("ueditcustomization") > -1) {
+	uEditObjectRef().setViewMode("preview");	// other option is "normal"
+  }
+}
